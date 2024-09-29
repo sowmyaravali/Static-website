@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:o;
+    box-sizing:border-box;
+}
+.review{
+    height:80vh;
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding:90px 90px;
+
+}
+.customer-review
+{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   gap:30px;
+}
+.customer-review h1{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+}
+.customer-review p{
+    width:700px;
+    font-size: 15px;
+    line-height:20px;
+    font-weight: 400;
+    text-align: center;
+}
+.sub p{
+    font-size: 10px;
+    line-height:10px;
+}
+.person-icons{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px
+}

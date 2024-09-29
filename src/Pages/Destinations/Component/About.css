@@ -1,0 +1,135 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.about{
+    height:180vh;
+    width:100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap:30px;
+    padding:70px 0px;
+}
+.choose-tour, .trending{
+    width:100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap:30px;
+    padding:0px 170px;
+
+}
+.toursCards{
+    width:100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap:50px;
+}
+.tour-data{
+    width:320px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap:20px;
+
+}
+.tour-data p{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    text-align: left;
+}
+.destination{
+    width:100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap:20px;
+}
+.destination-data {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    position:relative;
+}
+.destination-data  img{
+  width:280px;
+  z-index:1;
+}
+.destination-data .city{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 10px;
+    z-index: 2;
+    padding: 10px;
+}
+
+
+
+
+
+/* ********* POPULAR THINGS ********* */
+.popular-things{
+    height:50vh;
+    width:100%;
+    padding:0;
+    background-color: #fef7f4;
+    display:flex;
+    justify-content:center;
+    align-items: flex-start;
+    gap:30px;
+    flex-direction: column;
+    padding:0px 170px;
+
+
+}
+.popular-tittle{
+    width:100%;
+
+    display:flex;
+    justify-content: space-between;
+}
+.popular-tittle button{
+    background-color: #fef7f4;
+    border: none;
+}
+.popular-boxes{
+    width:100%;
+    height:auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:40px;
+}
+.city-cards{
+    background-color: #fff;
+    display:flex;
+    justify-content:center;
+    align-items: flex-start;
+    gap:20px;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 10px 30px;
+}
+.card-content{
+    display:flex;
+    justify-content:center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding:0 10px;
+}
+.card-content p{
+    font-size: 12px;
+
+}
